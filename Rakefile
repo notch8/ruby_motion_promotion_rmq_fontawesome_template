@@ -8,8 +8,8 @@ Bundler.require
 
 Motion::Project::App.setup do |app|
 
-  app.name = 'calagator-ios'
-  app.identifier = 'com.your_domain_here.calagator-ios'
+  app.name = 'promotion-rmq-template'
+  app.identifier = 'com.notch8.promotion-rmq-template'
   app.short_version = '0.1.0'
   app.version = app.short_version
 
