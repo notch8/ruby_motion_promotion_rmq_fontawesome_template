@@ -1,6 +1,6 @@
 class MainScreen < PM::Screen 
   include Navigation
-  title "Calendar"
+  title "Main"
 
   def on_load
     rmq.stylesheet = MainStylesheet
@@ -10,7 +10,15 @@ class MainScreen < PM::Screen
   end
 
   def will_appear
-    puts "will appear"
+  end
+
+  def on_appear
+  end
+
+  def will_disappear
+  end
+
+  def on_disappear
   end
 
 

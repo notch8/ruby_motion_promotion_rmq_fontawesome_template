@@ -7,8 +7,4 @@ module Navigation
     set_nav_bar_button :left, {custom_view: label, action: :tapped_left_nav}
   end
 
-  def tapped_left_nav
-    puts "tapped"
-    app_delegate.show_menu
-  end
 end

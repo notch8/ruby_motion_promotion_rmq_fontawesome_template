@@ -5,7 +5,7 @@ class NavigationScreen < ProMotion::TableScreen
       title: nil,
       cells: [
         {
-          title: 'Calendar',
+          title: 'Main',
           action: :swap_center_controller,
           arguments: MainScreen
         },
